@@ -1,0 +1,725 @@
+.container{
+    width: 1200px;
+}
+body .row{
+    --bs-gutter-x : 0;
+}
+.container-fluid{
+    --bs-gutter-x : 0 !important;
+}
+html, body {
+    overflow-x: hidden;
+}
+.headSection .headTop{
+    background: #083E68;
+}
+.headSection .headTop p{
+    color:#B7BEC7;
+    font-family: "Futura Medium", Sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+.headSection .headTop a{
+    color:#fff;
+    font-family: "Futura Medium", Sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+    margin-left: -15px;
+}
+.headBottom{
+    padding: 2.25rem 0;
+}
+
+/******NAVBAR*****/
+.navIcon{
+    float: right;
+    background-color: #fff !important;
+}
+.navbarRight .bgBlue{
+    background-color: #fff !important;
+}
+.navbarRight .navMenu{
+    width: -webkit-fill-available;
+    margin-right: -5.2rem;
+    margin-top: 2rem;
+}
+.headerNav ul{
+    padding-left: 0rem;
+}
+.posBg{
+    position: absolute;
+    bottom: -12rem;
+    right: 5.18rem;
+    top: 9rem;
+}
+/*.navMenuIcon{
+    position: absolute !important;
+    bottom: 28rem !important;
+    right: 0 !important;
+}
+*/
+.navbar-toggler-icon{
+    display: inline-block;
+    font-family: eicons;
+    font-size: inherit;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bgHeadBar li a{
+    padding: 1.2rem 2.7rem 1.2rem 2.3rem;
+}
+.bgOrange{
+    background-color: #F26522;
+    padding: 0.97rem 0;
+    width: 15rem;
+    border-radius: 3rem;
+}
+.navIcon ul li a.bgOrange {
+    font-family: "Futura Medium", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+}
+.navIcon ul li a.bgOrange{
+    text-align: center;
+}
+.navtopSpace{
+    padding: 2.5rem 0 1.5rem 0;
+}
+.navSpaceOne{
+    padding: 1.3rem 0 1.3rem 0;
+}
+.navIcon ul li {
+    list-style-type: none;
+    text-align: center;
+}
+.navIcon ul li a{
+    font-weight: 400;
+    font-family: "Futura Medium", sans-serif;
+    font-size: 1.1rem;
+    color: #083E68;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar i{
+    color: #083E68;
+}
+.navIcon .orangeBtnCircle i{
+    color: #fff;
+}
+.navIcon .orangeBtnCircle i{
+    color: #fff;
+}
+.navIcon li i{
+    margin-left: -2.3rem;
+}
+.navIcon li i:hover{
+    color: #F26522;
+}
+.navbar button i:hover{
+    color: #F26522;
+}
+.bgHeadBar li{
+    border-bottom: 1.5px solid #D5DAE247;
+}
+.bgHeadBar .bgOrange{
+    border: none;
+}
+.bgHeadBar li a:hover{
+    color: #F26522;
+}
+.bgHeadBar .bgOrange:hover{
+    color: #f5bea4;
+}
+.navIcon li.bgOrange.i{
+    margin-left: -1rem ;
+    color: #083E68;
+}
+.bgHeadBar .borderBtm{
+    border-bottom: none;
+}
+.bgHeadBar li:first-child {
+    border-bottom: none;
+}
+.bgHeadBar li:last-child {
+    border-bottom: none;
+    margin: 2.5rem 0 3rem 0;
+}
+.bgHeadBar .seventhList{
+    background: #EFF0F2;
+}
+.bgHeadBar .seventhList:hover{
+    background: none;
+}
+.socialIcons{
+    height: 5rem;
+    margin: 0 auto;
+    width: 30%;
+}
+.socialIcons ul{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.socialIcons li{
+    display: block;
+    float: right;
+}
+.socialIcons li i{
+    margin-left: 0rem;
+}
+.socialIcons li{
+    margin-right: 3rem;
+}
+/******************SECTION ONE**********************/
+.firstSection{
+    background: #083E68;
+}
+.firstSection .imageSubmitForm img{
+    width:100%;
+}
+.formSection{
+    background: #083E68;
+    padding:2rem 4rem 1rem 2.7rem;
+}
+.formSection .formHead h1{
+    font-family: "Futura Heavy", sans-serif;
+    font-size: 2.3rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+.submitForm h3{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+.formHead h1{
+    padding: 0 0 2rem 0;
+}
+.submitForm input{
+    padding: 0.6rem 0.3rem 0.6rem 0.3rem;
+    font-family: "Futura Book", sans-serif;
+    border-radius: 7px;
+    font-size: .9rem;
+    border-color: antiquewhite;
+    margin-bottom: 3rem;
+}
+.formSection textarea{
+    width: 100%;
+    border-radius: 5px;
+    height: 4.5rem;
+    padding: .5rem .6rem;
+}
+.submitForm .submitBtn{
+    background: #F26522;
+    padding: 1.2rem 2.7rem 1.2rem 2.7rem ;
+    color: #fff;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.formSection h6, .formSection h6 a{
+    font-size: .68rem;
+    color: #fff;
+    font-weight: normal;
+    line-height: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+/************************SECOND SECTION**************************/
+.secondSection .row{
+    --bs-gutter-x :0;
+}
+.secondSection .colWidth{
+    width: 20%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.secondSection .secondSecHead{
+    background: #fff;
+}
+.secondSection .secondSecHead h1{
+    font-size: 2.3rem;
+    font-family:"Futura Heavy", sans-serif;
+    font-weight: 700;
+    color: #083e68;
+    text-align: center;
+    padding: 3rem 0 1.5rem 0;
+}
+.secondSecImg{
+    width: 100%;
+    height: 19.58rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.secondSecImg h4{
+    color: #fff;
+    padding: 1.7rem 1.5rem .5rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Futura Heavy", sans-serif;
+}
+.secondSecImg h2{
+    color: #f16522;
+    padding: 0 0 0 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Futura Heavy", sans-serif;
+}
+.secondSecImgOne{
+    background-image: url(images/secondSec1.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.secondSecImgTwo{
+    background-image: url(images/secondSec2.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.secondSecImgThree{
+    background-image: url(images/secondSec3.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.secondSecImgFour{
+    background-image: url(images/secondSec4.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.secondSecImgFive{
+    background-image: url(images/secondSec5.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+/************************THIRD SECTION**************************/
+.clientImgSec{
+    background-image: url("images/clientBg.jpg");
+    background-size: cover;
+    background-position: 100%;
+    width: 100%;
+    height: 28rem;
+}
+.thirdSection h1{
+    position: absolute;
+    left: 22%;
+    margin-top: 14%;
+    color: #083e68;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: "Futura Heavy", sans-serif;
+}
+.thirdSection button{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border-color: #083E68;
+    border: 3px solid #083E68;
+    color: #083E68;
+    position: absolute;
+    left: 17rem;
+    margin-top: 23.5%;
+}
+.thirdSection button:hover{
+    border: 3px solid #F26522;
+    border-color: #F26522;
+    color: #F26522;
+}
+/************************FOURTH SECTION**************************/
+
+.fourthSection .fourthLeftSec{
+    padding: 8.5rem 3rem 9rem 2.5rem;
+    background: #083E68;
+}
+.fourthSection h1{
+    font-family: "Futura Heavy", Sans-serif;
+    font-size: 2.5rem;
+    color: #38C7FF;
+    line-height: 3rem;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    padding: 0 0 1.5rem 3rem;
+}
+.fourthSection p{
+    font-family: "Futura Medium", sans-serif;
+    font-size: .85rem;
+    color: #fff;
+    line-height: 1.7rem;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    text-align: center;
+}
+.fourthRightSec{
+    background-color: #000;
+}
+.fourthRightSec img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 3rem 0;
+}
+.fourthSection col{
+    padding: 0;
+}
+/************************FIFTH SECTION**************************/
+.fifthSecImg{
+    padding: 1rem 0;
+}
+.fifthSection img{
+    width: 100%;
+}
+/************************SIXTH SECTION**************************/
+.sixthSection{
+    background-image: url(images/blueBg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 3.4rem 3.4rem 6rem 3.4rem;
+}
+.sixthSection .sixthSecTop h3{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1px;
+    font-style: normal;
+    padding-bottom: .8rem;
+    font-family: "Futura Heavy", sans-serif;
+}
+.sixthSection .iconImg img{
+    width: 72%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0 0 0;
+}
+.sixthSection .whiteBg{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.sixthSection .whiteBg h4{
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    color: #083e68;
+    text-align: center;
+    line-height: 1.9rem;
+    padding: 1rem 0 1.5rem 0;
+    font-family: "Futura Heavy", sans-serif;
+}
+.sixthSection .whiteBg h5 {
+    text-align: center;
+    padding: 0 0 1.5rem 0;
+}
+.sixthSection .whiteBg h5 a{
+    font-size: 18px;
+    fill: #009FDF;
+    color: #009FDF;
+    line-height: 1.4rem;
+    padding: 0 0 1.5rem 0;
+    font-weight: 600;
+    text-underline-offset:.5rem;
+    font-family: "Futura Demi", Sans-serif;
+}
+/************************SEVENTH SECTION**************************/
+.seventhSection{
+    background-image: url(images/darkBlueBg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 24rem;
+}
+.seventhSection .seventhLeftSec{
+    padding: 0 10rem 1rem 8rem;
+}
+.seventhSection h1{
+    font-family: "Futura Heavy", Sans-serif;
+    font-size: 2rem;
+    color: #38C7FF;
+    text-align: center;
+    line-height: 3rem;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    padding: 6rem 2rem 2rem 2rem;
+}
+.seventhSection p{
+    font-family: "Futura Medium", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.7rem;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    text-align: center;
+    text-align: left;
+}
+.seventhLeftSecImg{
+    background-image: url(images/groupDisc1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 25rem;
+}
+.seventhRightSec iframe{
+    width: 100%;
+}
+.seventhRightSecImg{
+    background-image: url(images/groupDisc2.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 25rem;
+}
+.seventhSection .seventhLeftSecImg h2{
+    font-size: .9rem;
+    color:#f16522;
+    line-height: 1.4rem;
+    padding: 0 0 1.5rem 0;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset:.5rem;
+    font-family: "Futura Demi", Sans-serif;
+}
+.seventhSection ul{
+    padding: 0 0 0 9rem;
+}
+.seventhSection .icon li{
+    font-family: "Futura Medium", Sans-serif;
+    font-size: .9rem;
+    line-height: 1.1rem;
+    color: #fff;
+    padding: 0 0 2rem 0px;
+    list-style-type: none;
+}
+.seventhSection .icon img{
+    width: 7%;
+    margin-right: 2rem;
+}
+.seventhLeftSecImg h1{
+    font-family: "Futura Heavy", Sans-serif;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.8px;
+    color: #083F69;
+}
+.seventhLeftSecImg p{
+    font-family: "Futura Book", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #083F69;
+    text-align: center;
+    width: 43%;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+}
+.seventhRightSecImg h1{
+    font-family: "Futura Heavy", Sans-serif;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.8px;
+    color: #fff;
+}
+.seventhRightSecImg p{
+    font-family: "Futura Book", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    text-align: center;
+    width: 43%;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+}
+.seventhSection .seventhRightSecImg h2{
+    font-size: .9rem;
+    color:#F9A12F;
+    line-height: 1.4rem;
+    padding: 0 0 1.5rem 0;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset:.5rem;
+    font-family: "Futura Demi", Sans-serif;
+}
+footer{
+    background: #000;
+    padding: 2rem 0;
+}
+.widgetImg img{
+    width: 10%;
+}
+footer h1{
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    font-size: .9rem;
+    color: #8e8e8e;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+.socialIconsFooter li i{
+    color: #fff;
+}
+.widgetImg {
+    text-align: center;
+}
+.socialIconsFooter{
+    height: 5rem;
+    margin: 0 auto;
+    width: 30%;
+}
+.socialIconsFooter ul{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.socialIconsFooter li{
+    display: block;
+    float: right;
+}
+.socialIconsFooter li i{
+    margin-left: 0rem;
+}
+.socialIconsFooter li{
+    margin-right: 2rem;
+}
+.hidden{
+    display: none;
+}
+
+
+@media (min-width: 300px) and (max-width: 626px) {
+    .submitForm input{
+      width: 100%;
+    
+    }
+    .formHead h1{
+        font-size: 1.5rem;
+    }
+    .secondSecImg h2 {
+        font-size: .8rem;
+    }
+    .secondSection .colWidth {
+       width: 20%;
+    }
+}
+@media (min-width: 1199px) and (max-width: 2000px) {
+    .submitForm input{
+        width: 97%;
+    }
+
+}
+@media (min-width: 1199px) and (max-width: 1700px) {
+   
+    .thirdSection button {
+        padding: 1rem 3rem;
+        left: 27rem;
+        margin-top: 13.5%;
+    }
+    .fourthSection .fourthLeftSec {
+        padding: 10.5rem 3rem 12rem 2.5rem;
+    }
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+    .submitForm input{
+      width: 97%;
+     
+    }
+    .formSection .formHead h1 {
+        font-size: 1.5rem;
+    }
+    .secondSecImg h4 {
+        font-size: 1rem;
+    }
+    .secondSecImg h2 {
+        font-size: .8rem;
+    }
+    .fourthSection .fourthLeftSec{
+        padding: 3.5rem 3rem 2rem 2.5rem;
+    }
+
+    .clientImgSec{
+        background-image: url("images/clientBg.jpg");
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        height: 24rem;
+    }
+    .fourthSection .fourthLeftSec {
+        padding: 11.5rem 3rem 6rem 2.5rem;
+    }
+    .fourthRightSec img {
+        padding: 4rem 0;
+    }
+}  
+@media (min-width: 872px) and (max-width: 1000px) {
+    .formSection .formHead h1 {
+      width: 97%;
+    
+    }
+    .formSection .formHead h1 {
+        font-size: 1.5rem;
+    }
+    .secondSecImg h2 {
+        font-size: .8rem;
+    }
+    .fourthSection .fourthLeftSec{
+        padding: 3.5rem 3rem 5rem 2.5rem;
+    }
+}    
+
+@media (max-width:1264px){
+    .secondSecImg {
+        height: 18.6rem !important;
+}
+
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .secondSection .colWidth {
+        flex: 0 0 33.3%;
+    }
+    .clientImgSec{
+        background-image: url("images/clientBg.jpg");
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        height: 21rem;
+    }
+
+.fourthRightSec img {
+    padding: 9rem 0;
+}
+}
+@media (min-width: 577px) and (max-width: 767px) {
+    .secondSection .colWidth {
+        flex: 0 0 50%;
+    }
+    .clientImgSec{
+        background-image: url("images/clientBg.jpg");
+        background-size: cover;
+        background-position: 100%;
+        width: 100%;
+        height: 15rem;
+    }
+}
+
+
+
+
